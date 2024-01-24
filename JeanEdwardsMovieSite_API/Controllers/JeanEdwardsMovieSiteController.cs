@@ -42,7 +42,7 @@ namespace JeanEdwardsMovieSite_API.Controllers
         [HttpGet("latest")]
         public async Task<IActionResult> GetLatestSearchQueries()
         {
-            List<SearchQuery> searchQueries = await _dbContext.SearchQueries.ToListAsync();
+            List<SearchQuery> searchQueries = await _dbContext.SearchQueries.OrderByDescending(x => x.TimeStamp).Take(5).ToListAsync();
             return Ok(searchQueries);
         }
     }
