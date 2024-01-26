@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeanEdwardsMovieSite_API", "JeanEdwardsMovieSite_API\JeanEdwardsMovieSite_API.csproj", "{9A83C413-69B9-4B6F-AE05-F071EC01A91E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeanEdwardsMovieSite.Domain", "JeanEdwardsMovieSite.Domain\JeanEdwardsMovieSite.Domain.csproj", "{D2C63F14-C399-4816-9B38-FB0546985E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeanEdwardsMovieSite.Domain", "JeanEdwardsMovieSite.Domain\JeanEdwardsMovieSite.Domain.csproj", "{D2C63F14-C399-4816-9B38-FB0546985E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeanEdwardsMovieSiteUnitTests", "JeanEdwardsMovieSiteUnitTests\JeanEdwardsMovieSiteUnitTests.csproj", "{C06628D6-157D-4E33-9A4C-EE0D52113EA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D2C63F14-C399-4816-9B38-FB0546985E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2C63F14-C399-4816-9B38-FB0546985E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2C63F14-C399-4816-9B38-FB0546985E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06628D6-157D-4E33-9A4C-EE0D52113EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06628D6-157D-4E33-9A4C-EE0D52113EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06628D6-157D-4E33-9A4C-EE0D52113EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06628D6-157D-4E33-9A4C-EE0D52113EA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

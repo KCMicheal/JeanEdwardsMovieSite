@@ -12,6 +12,10 @@ namespace JeanEdwardsMovieSite.Domain.Context
             _configuration = configuration;
         }
 
+        public JeanEdwardsMovieSiteDbContext()
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
